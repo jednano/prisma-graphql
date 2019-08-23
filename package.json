@@ -1,0 +1,33 @@
+{
+  "name": "prisma-graphql",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedmao/prisma-graphql.git"
+  },
+  "description": "Type-safe Database Access &amp; Declarative Migrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src",
+    "postinstall": "prisma2 generate"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "proseWrap": "always",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedmao/prisma-graphql/issues"
+  },
+  "homepage": "https://github.com/jedmao/prisma-graphql#readme",
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
